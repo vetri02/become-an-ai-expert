@@ -18,16 +18,16 @@ After the core, Stage 5 is a choice of one of three specialisms. You do one; the
 
 ## Workload and sequence
 
-200 hours at about 10 hours a week is about 20 weeks. Full-time learners can halve the calendar but not the hours.
+200 hours at about 10 hours a week is 20 weeks. Stage boundaries below fall where the running total of hours crosses a whole week, so a stage of 59 hours gets five weeks and one of 24 hours gets three. Full-time learners can halve the calendar but not the hours.
 
 | Stage | Weeks | Modules | Hours |
 |---|---|---|---|
 | 1 · Foundations for AI systems | 1 to 2 | 01, 02 | 20 |
 | 2 · The model from the inside | 3 to 7 | 03 to 06 | 45 |
-| 3 · AI engineering with measurements | 8 to 13 | 07 to 11 | 59 |
-| 4 · Getting in | 14 to 15 | 12, 13 | 18 |
-| 5 · Depth in one track | 16 to 18 | 14 (or 15 or 16) | 24 |
-| 6 · Capstone and beyond | 19 to 21 | 17, capstone, final exam | 34 |
+| 3 · AI engineering with measurements | 8 to 12 | 07 to 11 | 59 |
+| 4 · Getting in | 13 to 14 | 12, 13 | 18 |
+| 5 · Depth in one track | 15 to 17 | 14 (or 15 or 16) | 24 |
+| 6 · Capstone and beyond | 18 to 20 | 17, capstone, final exam | 34 |
 | | | **Total** | **200** |
 
 Milestones A to E sit at the end of Stages 1 to 5. Each is a submission checklist reviewed under the peer-review protocol. Three hands-on targets (after Modules 05, 08 and 10) are planted-bug programs you fix until their checks print.

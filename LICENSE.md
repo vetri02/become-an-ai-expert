@@ -42,4 +42,4 @@ The written material is licensed under the Creative Commons Attribution 4.0 Inte
 
 **7. Spending.** Modules name optional paid resources and cloud compute with dated prices. Any money you spend is your decision.
 
-**8. Corrections.** If a passage reads wrong or a source has moved, open an issue in the repository. The verification report says what was checked and when.
+**8. Corrections.** If a passage reads wrong or a source has moved, open an issue at [github.com/vetri02/become-an-ai-expert/issues](https://github.com/vetri02/become-an-ai-expert/issues). The verification report says what was checked and when.

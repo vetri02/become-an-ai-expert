@@ -1,6 +1,6 @@
 # Become an AI Expert: understand, build, measure
 
-A self-study course in AI engineering with large language models for working professionals with no prior ML background. 200 guided hours. You build a small language model from the inside, ship an evaluated LLM system to real users, get into an AI role, and go deep in one specialism.
+A self-study course in AI engineering with large language models for working professionals with no prior ML background. 200 guided hours. You build a small language model from the inside, ship an evaluated LLM system to real users, get into an AI role, and go deep in one specialism. Free, with no sign-up.
 
 The question running through every module: **when the model is wrong, how do you know, what does it cost, and what evidence proves your system works?**
 
@@ -17,7 +17,7 @@ The question running through every module: **when the model is wrong, how do you
 
 Every claim links to its source: two vetted Reddit research sets from November 2026, about ninety practitioner write-ups, and the official pages of every resource named. Twenty first principles, each derived from how the thing works, anchor the course; seventeen of them have a lab you run on your laptop in minutes. Thirteen labs and three hands-on targets are self-checking. A citation check and a verification report are regenerated on every build.
 
-This is the sibling of [AI Security Engineering](https://aisec.engineering/), the same author's course on securing AI applications, agents and model lifecycles. The two share their structure and apparatus; Module 10 here teaches the security every AI engineer needs and hands off to the sibling for depth. The course material, every page plus the labs, targets, templates and tutor skill, is public at [github.com/vetri02/become-an-ai-expert](https://github.com/vetri02/become-an-ai-expert); the build and deploy source stays private. The course is also distributed through this site, the zip on the Study with an AI assistant page, and the handbook PDF.
+This is the sibling of [AI Security Engineering](https://aisec.engineering/), the same author's course on securing AI applications, agents and model lifecycles. The two share their structure and apparatus; Module 10 here teaches the security every AI engineer needs and hands off to the sibling for depth. The course material, every page plus the labs, targets, templates and tutor skill, is public at [github.com/vetri02/become-an-ai-expert](https://github.com/vetri02/become-an-ai-expert); the build and deploy source stays private. Corrections and questions go to [the issue tracker](https://github.com/vetri02/become-an-ai-expert/issues). The course is also distributed through this site, the zip on the Study with an AI assistant page, and the handbook PDF.
 
 ## Novice or professional?
 
@@ -40,7 +40,7 @@ Both tracks start from the same twenty first principles, read before the first m
 
 ### Is the course free?
 
-Yes. The code is MIT, the writing is CC BY 4.0, and there is no sign-up. The recordings in the media library are public videos by their original authors.
+Yes. The code is MIT, the writing is CC BY 4.0, and there is no sign-up. The labs, targets and reading cost nothing and run on a laptop. A few projects spend money: the retrieval and agent projects use about $5 to $30 of API calls, the nanochat training run is about $15 on a spot instance or $48 on demand, and the optional larger runs cost more. The [compute appendix](appendix/compute-and-costs.md) lists every figure with the date it was checked. The recordings in the media library are public videos by their original authors.
 
 ### How long does it take?
 

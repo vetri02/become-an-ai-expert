@@ -1,23 +1,24 @@
 # Citation check
 
-Run on 2026-11-06 against 229 distinct URLs in 416 citations.
+Run on 2026-11-06 against 230 distinct URLs in 418 citations.
 
 | Status | Count |
 |---|---|
 | OK | 175 |
-| BLOCKED | 54 |
+| BLOCKED | 55 |
 
 OK: reachable by this script. BLOCKED: the host refuses scripted clients (Reddit, X, Medium and similar); these were opened by hand during the research on 2026-11-04 and 2026-11-05. DEAD: 404 or 410, needs fixing. ERROR: timeout or TLS problem; retry before judging.
 
 
 ## BLOCKED, verified by a second method
 
-These hosts refuse the plain checker and are not re-fetched with a disguised client. Every Reddit thread is cross-referenced against the research captures of 2026-11-04 (title, date, score as captured); every other URL carries a manual record of when and how it was verified. Methods: fetch-tool 1, research-capture 53.
+These hosts refuse the plain checker and are not re-fetched with a disguised client. Every Reddit thread is cross-referenced against the research captures of 2026-11-04 (title, date, score as captured); every other URL carries a manual record of when and how it was verified. Methods: fetch-tool 1, research-capture 54.
 
 | URL | Method | Evidence | Cited in |
 |---|---|---|---|
 | https://gordicaleksa.medium.com/how-i-got-a-job-at-deepmind-as-a-research-engineer-without-a-machine-learning-degree-1a45f2a781de | research-capture | research-capture on 2026-11-04: Opened in a browser during the vetting research on 2026-11-04 and recorded as the primary source for Aleksa Gordic in research/self_taught_ai_experts_reddit_vetted.json (vetting.status 'verified'); Medium returns HTTP 403 to both the plain checker and the fetch tool on 2026-11-05, so the page was not re-read today. | ADVANCED-TRACK.md, appendix/stories.md, modules/12-internal-move-and-public-work.md, modules/16-track-c-research.md, path-a-foundations/A6-get-in-the-door.md |
 | https://news.ycombinator.com/item?id=49768826 | fetch-tool | fetch-tool on 2026-11-05: Read with the sanctioned fetch tool: title 'Ask HN: How do you interview devs in a post-AI world?', posted about 45 days before 2026-11-05; discussion of AI-allowed take-homes, explain-your-solution rounds and work trials, which is what Module 13 cites. The plain checker gets HTTP 419 (rate limit). | modules/13-interviews-2026.md |
+| https://openai.com/index/chatgpt-study-mode/ | research-capture | research-capture on 2026-11-05: Fetched by the research agent on 2026-11-05 and recorded in research/practical_tips_beginner_2026-11-05.md item 16 (Study mode launched 2025-07-29, free tier included); openai.com returns HTTP 403 to the plain checker and the fetch tool, so the page was not re-read by this script. | appendix/how-to-study.md |
 | https://www.reddit.com/r/AI_Agents/comments/1ta1cye/ | research-capture | thread 1ta1cye captured in research/ai_expert_path_2026.json on 2026-11-04: "10 things I'd tell anyone starting to build AI agents in production", posted 2026-05-11, score 9 | modules/09-agents-and-context.md, path-a-foundations/A5-ai-engineering.md |
 | https://www.reddit.com/r/AI_Agents/comments/1xee1sh/ | research-capture | thread 1xee1sh captured in research/ai_expert_path_2026.json on 2026-11-04: 'A year away from agent work: how would you rebuild current depth in ag', posted 2026-10-24, score 2 | ADVANCED-TRACK.md |
 | https://www.reddit.com/r/CUDA/comments/1t5txel/comment/oker8gc/ | research-capture | thread 1t5txel captured in research/ai_expert_path_2026.json on 2026-11-04: 'Building a career in AI infrastructure and inference engineering ,what', posted 2026-05-06, score 70 | ADVANCED-TRACK.md |
@@ -136,6 +137,7 @@ These hosts refuse the plain checker and are not re-fetched with a disguised cli
 | https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf | MEDIA-LIBRARY.md |
 | https://github.com/vetri02/become-an-ai-expert | AGENTS.md, ASSISTANT.md, README.md, labs/README.md, targets/README.md |
 | https://github.com/vetri02/become-an-ai-expert.git | labs/README.md |
+| https://github.com/vetri02/become-an-ai-expert/issues | LICENSE.md, README.md |
 | https://hamel.dev/blog/posts/evals-faq/ | appendix/resources.md, modules/08-evals.md, path-a-foundations/A5-ai-engineering.md |
 | https://hf.co/learn/agents-course | appendix/resources.md, modules/09-agents-and-context.md, path-a-foundations/A5-ai-engineering.md |
 | https://hotfix.jobs/blog/ai-engineer-salary-2026 | path-a-foundations/A7-choose-a-track.md |
@@ -154,7 +156,6 @@ These hosts refuse the plain checker and are not re-fetched with a disguised cli
 | https://mml-book.github.io | appendix/resources.md, modules/02-math-and-classical-ml.md |
 | https://modal.com/pricing | appendix/compute-and-costs.md |
 | https://newsletter.pragmaticengineer.com/p/from-software-engineer-to-ai-engineer | appendix/stories.md, modules/12-internal-move-and-public-work.md, modules/13-interviews-2026.md |
-| https://openai.com/index/chatgpt-study-mode/ | appendix/how-to-study.md |
 | https://podcasts.apple.com/us/podcast/108-chris-olah-on-working-at-top-ai-labs-without-an/id1245002988?i=1000531710782 | appendix/stories.md, modules/17-expert-markers.md, path-a-foundations/A8-employed-to-expert.md |
 | https://research.google.com/colaboratory/faq.html | appendix/compute-and-costs.md |
 | https://scikit-learn.org/stable/common_pitfalls.html | modules/02-math-and-classical-ml.md |
