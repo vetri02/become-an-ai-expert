@@ -1,0 +1,1042 @@
+{
+  "courseVersion": "2.1",
+  "checked": "2026-11-05",
+  "counts": {
+    "video": 54
+  },
+  "records": [
+    {
+      "id": "V01",
+      "type": "video",
+      "title": "Essence of linear algebra (playlist, 16 videos)",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "author": "3Blue1Brown",
+      "published": "2016",
+      "durationSeconds": 10800,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2
+      ],
+      "priority": "core",
+      "why": "Builds the geometric intuition for vectors, matrices and dot products that every attention and embedding diagram assumes.",
+      "task": "After each video, write one sentence on where that idea shows up in an LLM (for example, dot product = similarity score).",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V02",
+      "type": "video",
+      "title": "Essence of calculus (playlist, 12 videos)",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "author": "3Blue1Brown",
+      "published": "2017",
+      "durationSeconds": 10800,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2
+      ],
+      "priority": "optional",
+      "why": "Gives just enough derivative and chain-rule intuition to understand backpropagation.",
+      "task": "Watch chapters 1 to 4 and 6 only; sketch the chain rule for f(g(x)) by hand before V07.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V03",
+      "type": "video",
+      "title": "But what is a neural network? (Deep learning chapter 1)",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "author": "3Blue1Brown",
+      "published": "2017",
+      "durationSeconds": 1140,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2
+      ],
+      "priority": "core",
+      "why": "The clearest visual explanation of layers, weights, biases and activations.",
+      "task": "Draw a 2-layer network for a 3-pixel input and count its parameters.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V04",
+      "type": "video",
+      "title": "Machine Learning Fundamentals: Bias and Variance",
+      "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
+      "author": "StatQuest with Josh Starmer",
+      "published": "2018",
+      "durationSeconds": 420,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2
+      ],
+      "priority": "core",
+      "why": "Explains overfitting versus underfitting, the lens for reading every training and validation loss curve.",
+      "task": "Explain in two sentences why a train/validation gap matters when you fine-tune.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V05",
+      "type": "video",
+      "title": "Machine Learning Fundamentals: The Confusion Matrix",
+      "url": "https://www.youtube.com/watch?v=Kdsp6soqA7o",
+      "author": "StatQuest with Josh Starmer",
+      "published": "2018",
+      "durationSeconds": 420,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2
+      ],
+      "priority": "core",
+      "why": "Defines TP, FP, TN and FN, the vocabulary behind precision and recall in evals.",
+      "task": "Build a confusion matrix for a toy spam classifier with 10 examples.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V06",
+      "type": "video",
+      "title": "ROC and AUC, Clearly Explained!",
+      "url": "https://www.youtube.com/watch?v=4jRBRDbJemM",
+      "author": "StatQuest with Josh Starmer",
+      "published": "2019",
+      "durationSeconds": 960,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2,
+        8
+      ],
+      "priority": "core",
+      "why": "Shows how thresholds trade off false positives and negatives, which is how you tune LLM-judge cutoffs.",
+      "task": "Compute precision and recall at two thresholds for your V05 toy example.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V07",
+      "type": "video",
+      "title": "The spelled-out intro to neural networks and backpropagation: building micrograd",
+      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+      "author": "Andrej Karpathy",
+      "published": "2022",
+      "durationSeconds": 8760,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        2
+      ],
+      "priority": "core",
+      "why": "Implements autograd from scratch in about 100 lines of Python, so backprop stops being magic.",
+      "task": "Code along; then add a ReLU op and verify gradients numerically.",
+      "caveat": "",
+      "slides": "https://karpathy.ai/zero-to-hero.html"
+    },
+    {
+      "id": "V08",
+      "type": "video",
+      "title": "The spelled-out intro to language modeling: building makemore",
+      "url": "https://www.youtube.com/watch?v=PaCmpygFfXo",
+      "author": "Andrej Karpathy",
+      "published": "2022",
+      "durationSeconds": 7080,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        3
+      ],
+      "priority": "core",
+      "why": "Introduces the next-character objective, bigram counts and negative log-likelihood, the core of all LLM training.",
+      "task": "Code along; train the bigram model on your own list of words and sample from it.",
+      "caveat": "",
+      "slides": "https://karpathy.ai/zero-to-hero.html"
+    },
+    {
+      "id": "V09",
+      "type": "video",
+      "title": "Building makemore Part 2: MLP",
+      "url": "https://www.youtube.com/watch?v=TCH_1BHY58I",
+      "author": "Andrej Karpathy",
+      "published": "2022",
+      "durationSeconds": 4560,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        3
+      ],
+      "priority": "core",
+      "why": "Adds embeddings, a hidden layer, mini-batches and the train/dev/test split.",
+      "task": "Plot loss versus learning rate as in the video and pick a learning rate yourself.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V10",
+      "type": "video",
+      "title": "Building makemore Part 3: Activations and Gradients, BatchNorm",
+      "url": "https://www.youtube.com/watch?v=P6sfmUTpUmc",
+      "author": "Andrej Karpathy",
+      "published": "2022",
+      "durationSeconds": 6960,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        4
+      ],
+      "priority": "optional",
+      "why": "Covers activation and gradient health in deep networks.",
+      "task": "Reproduce the activation histograms and explain what a dead neuron is.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V11",
+      "type": "video",
+      "title": "Let's build the GPT Tokenizer",
+      "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+      "author": "Andrej Karpathy",
+      "published": "2024",
+      "durationSeconds": 8040,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        3
+      ],
+      "priority": "core",
+      "why": "Builds byte-pair encoding from scratch and explains why tokenization causes many LLM quirks.",
+      "task": "Train a BPE tokenizer on a text of your choice; tokenize a URL, some code and non-English text and inspect the results.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V12",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 1: Overview and Tokenization",
+      "url": "https://www.youtube.com/watch?v=SQ3fZ1sAqXI",
+      "author": "Stanford Online (Percy Liang)",
+      "published": "2025",
+      "durationSeconds": 4740,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        3
+      ],
+      "priority": "core",
+      "why": "Frames the whole build-an-LM-from-scratch stack (data, systems, scaling, alignment) and formalises BPE.",
+      "task": "Write a one-page map of the LLM pipeline using the lecture's outline.",
+      "caveat": "",
+      "slides": "https://cs336.stanford.edu/spring2025/"
+    },
+    {
+      "id": "V13",
+      "type": "video",
+      "title": "[1hr Talk] Intro to Large Language Models",
+      "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+      "author": "Andrej Karpathy",
+      "published": "2023",
+      "durationSeconds": 3600,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        3
+      ],
+      "priority": "core",
+      "why": "Non-technical but precise tour: pretraining, fine-tuning, RLHF, scaling, tool use and security.",
+      "task": "Watch first in the course; list three questions you want answered by the end.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V14",
+      "type": "video",
+      "title": "Deep Dive into LLMs like ChatGPT",
+      "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+      "author": "Andrej Karpathy",
+      "published": "2025",
+      "durationSeconds": 12660,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        6
+      ],
+      "priority": "core",
+      "why": "End-to-end explanation of pretraining, SFT, RLHF and reasoning RL with concrete examples of hallucination and tokenization effects.",
+      "task": "Watch in three sittings; after each, write a five-bullet summary you could give a colleague.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V15",
+      "type": "video",
+      "title": "Transformers, the tech behind LLMs (Deep Learning chapter 5)",
+      "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+      "author": "3Blue1Brown",
+      "published": "2024",
+      "durationSeconds": 1620,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        4
+      ],
+      "priority": "core",
+      "why": "Visualises embeddings, the residual stream, the unembedding and softmax with temperature.",
+      "task": "Explain temperature in one paragraph using the video's softmax picture.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V16",
+      "type": "video",
+      "title": "Attention in transformers, step-by-step (Deep Learning chapter 6)",
+      "url": "https://www.youtube.com/watch?v=eMlx5fFNoYc",
+      "author": "3Blue1Brown",
+      "published": "2024",
+      "durationSeconds": 1560,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        4
+      ],
+      "priority": "core",
+      "why": "The best visual derivation of queries, keys, values, masking and multi-head attention.",
+      "task": "Hand-compute attention weights for a 3-token example with 2-dimensional Q and K.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V17",
+      "type": "video",
+      "title": "Let's build GPT: from scratch, in code, spelled out",
+      "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+      "author": "Andrej Karpathy",
+      "published": "2023",
+      "durationSeconds": 6960,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        4
+      ],
+      "priority": "core",
+      "why": "Implements a decoder-only transformer (nanoGPT) line by line, including causal self-attention.",
+      "task": "Code along; then change context length and head count and observe loss and speed.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V18",
+      "type": "video",
+      "title": "Let's reproduce GPT-2 (124M)",
+      "url": "https://www.youtube.com/watch?v=l8pRSuU81PU",
+      "author": "Andrej Karpathy",
+      "published": "2024",
+      "durationSeconds": 14460,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        5
+      ],
+      "priority": "core",
+      "why": "Full pretraining run with mixed precision, torch.compile, flash attention, learning-rate schedules and evaluation.",
+      "task": "Watch fully; run at least the first hour's code on any GPU and record tokens per second before and after each optimisation.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V19",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 9: Scaling laws 1",
+      "url": "https://www.youtube.com/watch?v=6Q-ESEmDf4Q",
+      "author": "Stanford Online (Tatsunori Hashimoto)",
+      "published": "2025",
+      "durationSeconds": 3900,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        5
+      ],
+      "priority": "core",
+      "why": "Explains Chinchilla-style compute-optimal training and how labs decide model versus data size.",
+      "task": "Given a fixed compute budget, estimate parameters and tokens using the lecture's rule of thumb.",
+      "caveat": "",
+      "slides": "https://github.com/stanford-cs336/spring2025-lectures/blob/fb79eb018fa047bf99c4c785dcbbd62fff361e54/nonexecutable/2025%20Lecture%209%20-%20Scaling%20laws%20basics.pdf"
+    },
+    {
+      "id": "V20",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 10: Inference",
+      "url": "https://www.youtube.com/watch?v=fcgPYo3OtV0",
+      "author": "Stanford Online (Percy Liang)",
+      "published": "2025",
+      "durationSeconds": 4980,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        5
+      ],
+      "priority": "core",
+      "why": "Derives why decoding is memory-bound, and covers the KV cache, batching, speculative decoding and quantisation.",
+      "task": "Compute the KV-cache size in GB for a given model and context length, then explain why batch size raises throughput.",
+      "caveat": "",
+      "slides": "https://cs336.stanford.edu/spring2025/"
+    },
+    {
+      "id": "V21",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 15: Alignment, SFT and RLHF",
+      "url": "https://www.youtube.com/watch?v=Dfu7vC9jo4w",
+      "author": "Stanford Online (Tatsunori Hashimoto)",
+      "published": "2025",
+      "durationSeconds": 4500,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        6
+      ],
+      "priority": "core",
+      "why": "Covers instruction-tuning data, reward models, PPO and DPO in one lecture.",
+      "task": "Write the DPO objective in words and explain what it removes relative to PPO.",
+      "caveat": "",
+      "slides": "https://github.com/stanford-cs336/spring2025-lectures/blob/61eddac004df975466cff0329b615f2d24230069/nonexecutable/2025%20Lecture%2015%20-%20RLHF%20Alignment.pdf"
+    },
+    {
+      "id": "V22",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 16: Alignment, RL 1 (RLVR)",
+      "url": "https://www.youtube.com/watch?v=46f2QTDB08Q",
+      "author": "Stanford Online (Tatsunori Hashimoto)",
+      "published": "2025",
+      "durationSeconds": 4860,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        6
+      ],
+      "priority": "core",
+      "why": "Explains reinforcement learning with verifiable rewards, policy gradients and GRPO as used in reasoning models.",
+      "task": "List two tasks in your domain with verifiable rewards and two without.",
+      "caveat": "",
+      "slides": "https://github.com/stanford-cs336/spring2025-lectures/blob/e94e33f433985e57036b25215dff2a4292e67a4f/nonexecutable/2025%20Lecture%2016%20-%20RLVR.pdf"
+    },
+    {
+      "id": "V23",
+      "type": "video",
+      "title": "Build A Reasoning Model From Scratch 6: Implementing GRPO for RLVR",
+      "url": "https://www.youtube.com/watch?v=237Hf7Q3lgg",
+      "author": "Sebastian Raschka",
+      "published": "2026",
+      "durationSeconds": 5220,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        6,
+        16
+      ],
+      "priority": "core",
+      "why": "Hands-on GRPO implementation in PyTorch with a math-answer verifier as the reward.",
+      "task": "Run the companion code; change the group size and note the effect on reward variance.",
+      "caveat": "",
+      "slides": "https://github.com/rasbt/reasoning-from-scratch"
+    },
+    {
+      "id": "V24",
+      "type": "video",
+      "title": "The unreasonable effectiveness of BM25 for agentic search",
+      "url": "https://www.youtube.com/watch?v=fZH97QHHYjY",
+      "author": "AI Engineer (Jo Kristian Bergum)",
+      "published": "2026",
+      "durationSeconds": 1080,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        7
+      ],
+      "priority": "core",
+      "why": "Shows with real search traces why lexical retrieval and hybrid search matter when the user is an agent. Speaker is a vendor CEO; content is conceptual.",
+      "task": "Add a BM25 index next to your vector index and compare top-5 results on 10 queries.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V25",
+      "type": "video",
+      "title": "How to look at your data (Jeff Huber and Jason Liu)",
+      "url": "https://www.youtube.com/watch?v=jryZvCuA0Uc",
+      "author": "AI Engineer",
+      "published": "2025",
+      "durationSeconds": 1140,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        7,
+        8
+      ],
+      "priority": "core",
+      "why": "Practical method for improving RAG by inspecting retrieval inputs and outputs and measuring per-query-type failures.",
+      "task": "Sample 30 queries, cluster them by type, and estimate recall per cluster.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V26",
+      "type": "video",
+      "title": "Why AI evals are the hottest new skill for product builders",
+      "url": "https://www.youtube.com/watch?v=BsWxPI9UM4c",
+      "author": "Lenny's Podcast (Hamel Husain, Shreya Shankar)",
+      "published": "2025",
+      "durationSeconds": 6420,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        8
+      ],
+      "priority": "core",
+      "why": "The full error-analysis-first eval workflow: open coding, taxonomies, code versus LLM-judge evals, judge validation. Promotes their paid course.",
+      "task": "Do a one-hour error analysis on 20 traces of any LLM app and write a failure taxonomy.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V27",
+      "type": "video",
+      "title": "LLM Evals: Common Mistakes",
+      "url": "https://www.youtube.com/watch?v=GL0XhAj5LPE",
+      "author": "Hamel Husain",
+      "published": "2025",
+      "durationSeconds": 1680,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        8
+      ],
+      "priority": "core",
+      "why": "Short list of anti-patterns: generic metrics, unvalidated judges, no error analysis.",
+      "task": "Audit an existing eval setup against the mistakes listed.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V28",
+      "type": "video",
+      "title": "Evals in Action: From Frontier Research to Production Applications",
+      "url": "https://www.youtube.com/watch?v=YEaKXjHENyQ",
+      "author": "OpenAI (Tejal Patwardhan, Henry Scott-Green)",
+      "published": "2025",
+      "durationSeconds": 1320,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        8
+      ],
+      "priority": "optional",
+      "why": "How a frontier lab thinks about evals, then how app builders should. The second half demos a vendor product.",
+      "task": "Note the three grader types mentioned and map them to your own use case.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V29",
+      "type": "video",
+      "title": "How We Build Effective Agents (Barry Zhang, Anthropic)",
+      "url": "https://www.youtube.com/watch?v=D7_ipDqhtwk",
+      "author": "AI Engineer",
+      "published": "2025",
+      "durationSeconds": 900,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        9
+      ],
+      "priority": "core",
+      "why": "Distils the building-effective-agents post: workflows versus agents, keep it simple, think from the model's point of view.",
+      "task": "Decide for one of your use cases whether it needs a workflow or an agent, and justify it.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V30",
+      "type": "video",
+      "title": "Prompting 101",
+      "url": "https://www.youtube.com/watch?v=ysPbXH0LpIE",
+      "author": "Anthropic (Code with Claude)",
+      "published": "2025",
+      "durationSeconds": 1500,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        9
+      ],
+      "priority": "optional",
+      "why": "Structured prompt anatomy with a live worked example. Vendor talk; the structure transfers.",
+      "task": "Rewrite one of your prompts using the template and A/B it on 10 inputs.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V31",
+      "type": "video",
+      "title": "Prompt Injection, explained",
+      "url": "https://www.youtube.com/watch?v=FgxwCaL6UTA",
+      "author": "Simon Willison",
+      "published": "2023",
+      "durationSeconds": 720,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        10
+      ],
+      "priority": "core",
+      "why": "The canonical explanation of why untrusted text in the context is a security problem with no complete fix.",
+      "task": "List every untrusted input your app puts into a prompt and what a worst-case injection could do.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V32",
+      "type": "video",
+      "title": "Mastering LLM Inference Optimization: From Theory to Cost-Effective Deployment (Mark Moyou)",
+      "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+      "author": "AI Engineer",
+      "published": "2025",
+      "durationSeconds": 2040,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        10,
+        15
+      ],
+      "priority": "optional",
+      "why": "Connects model size, precision, KV cache and batching to dollars per token and latency targets. Speaker is at NVIDIA; content is largely vendor-neutral.",
+      "task": "Estimate cost per million tokens for one model on one GPU using the talk's arithmetic.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V33",
+      "type": "video",
+      "title": "Build an LLM from Scratch 7: Instruction Finetuning",
+      "url": "https://www.youtube.com/watch?v=4yNswvhPWCQ",
+      "author": "Sebastian Raschka",
+      "published": "2025",
+      "durationSeconds": 6360,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        11
+      ],
+      "priority": "core",
+      "why": "Full SFT loop on a small GPT: formatting instruction data, masking, training and evaluating with an LLM judge.",
+      "task": "Run the chapter notebook; swap in 50 instruction examples from your domain.",
+      "caveat": "",
+      "slides": "https://github.com/rasbt/LLMs-from-scratch"
+    },
+    {
+      "id": "V34",
+      "type": "video",
+      "title": "From Software Engineer to AI Engineer, with Janvi Kalra",
+      "url": "https://www.youtube.com/watch?v=3E_jDJST69s",
+      "author": "The Pragmatic Engineer (Gergely Orosz)",
+      "published": "2025",
+      "durationSeconds": 4200,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        12,
+        13
+      ],
+      "priority": "core",
+      "why": "An OpenAI AI engineer on moving from software engineering to AI, what interviews looked like, and what the job is.",
+      "task": "Write your own six-month transition plan with the projects you would show in interviews.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V35",
+      "type": "video",
+      "title": "AI Engineering 101 with Chip Huyen",
+      "url": "https://www.youtube.com/watch?v=qbvY0dQgSJ4",
+      "author": "Lenny's Podcast",
+      "published": "2025",
+      "durationSeconds": 4980,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        14
+      ],
+      "priority": "core",
+      "why": "The author of AI Engineering on the applied stack: RAG versus fine-tuning, evaluation-driven development, failure modes. Promotes her book.",
+      "task": "List which of the techniques discussed your organisation needs, in priority order.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V36",
+      "type": "video",
+      "title": "Keynote: Build and keep your context window (PyData Amsterdam 2023)",
+      "url": "https://www.youtube.com/watch?v=icGHT7MiaFY",
+      "author": "PyData (Vicki Boykis)",
+      "published": "2023",
+      "durationSeconds": 2280,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        17
+      ],
+      "priority": "optional",
+      "why": "A practitioner's view on learning ML deeply amid hype: fundamentals, writing, and managing your own attention.",
+      "task": "Pick one fundamental topic to go deep on this month and schedule it.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V37",
+      "type": "video",
+      "title": "Lecture 1: How to profile CUDA kernels in PyTorch",
+      "url": "https://www.youtube.com/watch?v=LuhJEEJQgUM",
+      "author": "GPU MODE (Mark Saroufim)",
+      "published": "2024",
+      "durationSeconds": 3360,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "core",
+      "why": "Shows how to time and profile PyTorch ops and load a custom CUDA kernel.",
+      "task": "Profile a matmul and a softmax with the PyTorch profiler and identify the slowest kernel.",
+      "caveat": "",
+      "slides": "https://github.com/gpu-mode/lectures/tree/main/lecture_001"
+    },
+    {
+      "id": "V38",
+      "type": "video",
+      "title": "Lecture 2: Chapters 1 to 3 of PMPP",
+      "url": "https://www.youtube.com/watch?v=NQ-0D5Ti2dc",
+      "author": "GPU MODE (Andreas Koepf)",
+      "published": "2024",
+      "durationSeconds": 3120,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "optional",
+      "why": "Recap of the first three chapters of Programming Massively Parallel Processors: threads, blocks, grids.",
+      "task": "Sketch how a 1024-element vector add maps to blocks and threads.",
+      "caveat": "",
+      "slides": "https://github.com/gpu-mode/lectures"
+    },
+    {
+      "id": "V39",
+      "type": "video",
+      "title": "Lecture 3: Getting Started With CUDA for Python Programmers",
+      "url": "https://www.youtube.com/watch?v=4sgKnKbR-WE",
+      "author": "GPU MODE (Jeremy Howard)",
+      "published": "2024",
+      "durationSeconds": 4680,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "core",
+      "why": "Writes a first CUDA kernel from a Python mindset: simulate in Python, then port.",
+      "task": "Follow along and write an RGB-to-grayscale kernel, then a matmul kernel.",
+      "caveat": "",
+      "slides": "https://github.com/gpu-mode/lectures"
+    },
+    {
+      "id": "V40",
+      "type": "video",
+      "title": "Lecture 4: Compute and Memory Basics",
+      "url": "https://www.youtube.com/watch?v=lTmYrKwjSOU",
+      "author": "GPU MODE (Thomas Viehmann)",
+      "published": "2024",
+      "durationSeconds": 3420,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "core",
+      "why": "Explains the GPU memory hierarchy, occupancy and why memory bandwidth bounds most LLM kernels.",
+      "task": "Compute arithmetic intensity for a matmul versus an elementwise op and say which is memory-bound.",
+      "caveat": "",
+      "slides": "https://github.com/gpu-mode/lectures/tree/main/lecture_004"
+    },
+    {
+      "id": "V41",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 5: GPUs",
+      "url": "https://www.youtube.com/watch?v=6OBtO9niT00",
+      "author": "Stanford Online (Tatsunori Hashimoto)",
+      "published": "2025",
+      "durationSeconds": 4440,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        5,
+        15
+      ],
+      "priority": "core",
+      "why": "Roofline model, tensor cores, FLOPs accounting, and why training is compute-bound and inference memory-bound.",
+      "task": "Estimate MFU for a training run given tokens per second, parameters and GPU peak FLOPs.",
+      "caveat": "",
+      "slides": "https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf"
+    },
+    {
+      "id": "V42",
+      "type": "video",
+      "title": "Fast LLM Serving with vLLM and PagedAttention",
+      "url": "https://www.youtube.com/watch?v=5ZlavKF_98U",
+      "author": "Anyscale (Woosuk Kwon, Zhuohan Li)",
+      "published": "2023",
+      "durationSeconds": 1920,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "core",
+      "why": "The vLLM authors explain KV-cache fragmentation and how paged attention raises serving throughput.",
+      "task": "Explain paged attention to a colleague using the OS virtual-memory analogy.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V43",
+      "type": "video",
+      "title": "Lecture 22: Hacker's Guide to Speculative Decoding in vLLM",
+      "url": "https://www.youtube.com/watch?v=9wNAgpX6z_4",
+      "author": "GPU MODE (Cade Daniel)",
+      "published": "2024",
+      "durationSeconds": 4140,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "core",
+      "why": "Explains draft-and-verify speculative decoding, its acceptance math and the vLLM implementation.",
+      "task": "Compute expected speedup for a given acceptance rate and draft length.",
+      "caveat": "",
+      "slides": "https://github.com/gpu-mode/lectures"
+    },
+    {
+      "id": "V44",
+      "type": "video",
+      "title": "Neel Nanda: Mechanistic Interpretability, A Whirlwind Tour",
+      "url": "https://www.youtube.com/watch?v=veT2VI4vHyU",
+      "author": "FAR.AI",
+      "published": "2024",
+      "durationSeconds": 1320,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        16
+      ],
+      "priority": "core",
+      "why": "Concise introduction to circuits, features and the grokking case study from a leading practitioner.",
+      "task": "Read the slides and run one TransformerLens demo notebook on an induction head.",
+      "caveat": "",
+      "slides": "https://www.neelnanda.io/whirlwind-slides"
+    },
+    {
+      "id": "V45",
+      "type": "video",
+      "title": "Andrej Karpathy: Software Is Changing (Again)",
+      "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
+      "author": "Y Combinator",
+      "published": "2025",
+      "durationSeconds": 2400,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        17
+      ],
+      "priority": "core",
+      "why": "Software 3.0 framing: LLMs as a new computer, partial autonomy and building for agents.",
+      "task": "Write down one product in your organisation and sketch its autonomy slider.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V46",
+      "type": "video",
+      "title": "Build A Reasoning Model From Scratch 2: Loading a Base Model, Text Generation, and KV Caching",
+      "url": "https://www.youtube.com/watch?v=BJua0yjO5dk",
+      "author": "Sebastian Raschka",
+      "published": "2026",
+      "durationSeconds": 5820,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        5
+      ],
+      "priority": "recommended",
+      "why": "Text generation and the KV cache implemented on a real base model.",
+      "task": "Compare the video's cache with your lab 03 implementation and list the differences.",
+      "caveat": "",
+      "slides": "https://github.com/rasbt/reasoning-from-scratch"
+    },
+    {
+      "id": "V47",
+      "type": "video",
+      "title": "Building LLMs from the Ground Up: A 3-hour Coding Workshop",
+      "url": "https://www.youtube.com/watch?v=quh7z1q7-uc",
+      "author": "Sebastian Raschka",
+      "published": "2024",
+      "durationSeconds": 9900,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        4
+      ],
+      "priority": "recommended",
+      "why": "A single-sitting walk through the book's architecture code.",
+      "task": "Use as a review after Module 04 if the whiteboard walk-through is shaky.",
+      "caveat": "",
+      "slides": "https://github.com/rasbt/LLMs-from-scratch"
+    },
+    {
+      "id": "V48",
+      "type": "video",
+      "title": "Building more effective AI agents (Erik Schluntz with Alex Albert)",
+      "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+      "author": "Anthropic",
+      "published": "2025",
+      "durationSeconds": 1140,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        9
+      ],
+      "priority": "recommended",
+      "why": "Short vendor conversation on agent design trade-offs.",
+      "task": "Note one claim to test in your own agent harness.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V49",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 12: Evaluation",
+      "url": "https://www.youtube.com/watch?v=x-R5l2HsXqM",
+      "author": "Stanford Online",
+      "published": "2025",
+      "durationSeconds": 4860,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        8
+      ],
+      "priority": "recommended",
+      "why": "How model builders evaluate; the benchmarks, their failure modes and contamination.",
+      "task": "Pick one benchmark and write what it would and would not tell you about your product.",
+      "caveat": "",
+      "slides": "https://cs336.stanford.edu/spring2025/"
+    },
+    {
+      "id": "V50",
+      "type": "video",
+      "title": "CS336 Spring 2025, Lecture 6: Kernels, Triton",
+      "url": "https://www.youtube.com/watch?v=E8Mju53VB00",
+      "author": "Stanford Online",
+      "published": "2025",
+      "durationSeconds": 4800,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "recommended",
+      "why": "Triton kernels explained in the context of training an LM.",
+      "task": "Write the vector-add kernel from the lecture before CS336 assignment 2.",
+      "caveat": "",
+      "slides": "https://cs336.stanford.edu/spring2025/"
+    },
+    {
+      "id": "V51",
+      "type": "video",
+      "title": "GPU MODE Lecture 35: SGLang",
+      "url": "https://www.youtube.com/watch?v=XQylGyG7yp8",
+      "author": "GPU MODE",
+      "published": "2024",
+      "durationSeconds": 2700,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        15
+      ],
+      "priority": "optional",
+      "why": "The second serving engine the track reads, from its authors.",
+      "task": "List two design differences from vLLM after watching.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V52",
+      "type": "video",
+      "title": "A Taxonomy for Next-gen Reasoning (Nathan Lambert)",
+      "url": "https://www.youtube.com/watch?v=jQcsVk0KWiQ",
+      "author": "AI Engineer",
+      "published": "2025",
+      "durationSeconds": 1140,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        6
+      ],
+      "priority": "recommended",
+      "why": "A post-training lead's map of reasoning methods.",
+      "task": "Place GRPO, DPO and best-of-N on the taxonomy.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V53",
+      "type": "video",
+      "title": "How might LLMs store facts (Deep Learning chapter 7)",
+      "url": "https://www.youtube.com/watch?v=9-Jl0dxWQs8",
+      "author": "3Blue1Brown",
+      "published": "2024",
+      "durationSeconds": 1380,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        4,
+        11
+      ],
+      "priority": "recommended",
+      "why": "Why facts live in the MLP layers, which is the mechanism behind fine-tuning not adding knowledge reliably.",
+      "task": "Explain to a colleague why a few fine-tuning examples do not install a fact.",
+      "caveat": "",
+      "slides": null
+    },
+    {
+      "id": "V54",
+      "type": "video",
+      "title": "2025 in LLMs so far, illustrated by Pelicans on Bicycles (Simon Willison)",
+      "url": "https://www.youtube.com/watch?v=YpY83-kA7Bo",
+      "author": "AI Engineer",
+      "published": "2025",
+      "durationSeconds": 1080,
+      "checked": "2026-11-05",
+      "verification": "YouTube watch page fetched on 2026-11-05: playability OK, title, channel and length read from page metadata. Playlists verified by page title. Not watched in full.",
+      "modules": [
+        17
+      ],
+      "priority": "recommended",
+      "why": "A model of keeping a personal benchmark and running it on every release.",
+      "task": "Define your own pelican: one task you will run on every new model.",
+      "caveat": "",
+      "slides": null
+    }
+  ]
+}

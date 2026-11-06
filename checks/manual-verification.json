@@ -1,0 +1,17 @@
+{
+  "https://news.ycombinator.com/item?id=49768826": {
+    "date": "2026-11-05",
+    "method": "fetch-tool",
+    "evidence": "Read with the sanctioned fetch tool: title 'Ask HN: How do you interview devs in a post-AI world?', posted about 45 days before 2026-11-05; discussion of AI-allowed take-homes, explain-your-solution rounds and work trials, which is what Module 13 cites. The plain checker gets HTTP 419 (rate limit)."
+  },
+  "https://gordicaleksa.medium.com/how-i-got-a-job-at-deepmind-as-a-research-engineer-without-a-machine-learning-degree-1a45f2a781de": {
+    "date": "2026-11-04",
+    "method": "research-capture",
+    "evidence": "Opened in a browser during the vetting research on 2026-11-04 and recorded as the primary source for Aleksa Gordic in research/self_taught_ai_experts_reddit_vetted.json (vetting.status 'verified'); Medium returns HTTP 403 to both the plain checker and the fetch tool on 2026-11-05, so the page was not re-read today."
+  },
+  "https://openai.com/index/chatgpt-study-mode/": {
+    "date": "2026-11-05",
+    "method": "research-capture",
+    "evidence": "Fetched by the research agent on 2026-11-05 and recorded in research/practical_tips_beginner_2026-11-05.md item 16 (Study mode launched 2025-07-29, free tier included); openai.com returns HTTP 403 to the plain checker and the fetch tool, so the page was not re-read by this script."
+  }
+}
