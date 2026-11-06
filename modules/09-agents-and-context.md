@@ -8,7 +8,7 @@ Prerequisite: Module 08. By the end you can:
 2. Apply the context-engineering principles: system prompt at the right altitude, minimal high-signal tokens, distinct tools, just-in-time retrieval, compaction, notes outside the context, sub-agents.
 3. Measure the agent with outcome-graded tasks, pass@k and pass^k, and a regression suite.
 
-**Primary resource:** Anthropic, Effective context engineering for AI agents (https://www.anthropic.com/research/effective-context-engineering-for-ai-agents). Finish it before adding anything from the reading list.
+**Primary resource:** Anthropic, Effective context engineering for AI agents (https://www.anthropic.com/research/effective-context-engineering-for-ai-agents). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 13 guided: 12 on the concept blocks, 1 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why agents are an engineering problem, not a prompting problem

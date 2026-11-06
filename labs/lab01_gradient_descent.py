@@ -58,7 +58,7 @@ if __name__ == "__main__":
     assert abs(w - 2) < 0.1 and abs(b - 1) < 0.1, "line fit did not converge"
     assert losses[-1] < losses[0] / 10, "loss did not fall"
 
-    # What happens with a learning rate 10x too high: the loss should blow up or oscillate
+    # What happens with a learning rate 15x too high: the loss should blow up or oscillate
     _, _, bad = fit_line(lr=1.5, steps=50)
     print(f"line with lr 15x too high: loss after 50 steps = {bad[-1]:.3g} (divergence expected)")
     assert bad[-1] > losses[-1] * 10

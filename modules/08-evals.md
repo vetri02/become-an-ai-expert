@@ -8,7 +8,7 @@ Prerequisite: Module 07. By the end you can:
 2. Build an eval harness with code-based graders, calibrated LLM judges (TPR and TNR against human labels), pass@k and pass^k, and a regression suite in CI.
 3. Measure eval noise and tell a regression from sampling.
 
-**Primary resource:** Hamel Husain and Shreya Shankar, AI Evals FAQ (https://hamel.dev/blog/posts/evals-faq/). Finish it before adding anything from the reading list.
+**Primary resource:** Hamel Husain and Shreya Shankar, AI Evals FAQ (https://hamel.dev/blog/posts/evals-faq/). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 16 guided: 12 on the concept blocks, 4 on the lab, Target 08 and the first pass of the build. Unguided practice on top is yours.
 
 ## Why this is the core skill

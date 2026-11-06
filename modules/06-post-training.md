@@ -8,7 +8,7 @@ Prerequisite: Module 05. By the end you can:
 2. Run SFT and a GRPO-style RL run on your nanochat model, with evals before and after.
 3. Explain reward hacking and the KL penalty from a run you did yourself.
 
-**Primary resource:** Raschka, Build a Reasoning Model (From Scratch), chapters 3 to 7 (https://sebastianraschka.com/reasoning-from-scratch). Finish it before adding anything from the reading list.
+**Primary resource:** Raschka, Build a Reasoning Model (From Scratch), chapters 3 to 7 (https://sebastianraschka.com/reasoning-from-scratch). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 12 guided: 11 on the concept blocks, 1 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why this is where models become products

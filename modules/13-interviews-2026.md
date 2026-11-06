@@ -8,7 +8,7 @@ Prerequisite: Module 12. By the end you can:
 2. Draw an ML system design for a GenAI app, a recommendation pipeline and an inference service, in under 20 minutes each.
 3. Code attention, a training loop, a tokenizer and the eval metrics from memory while narrating, with or without an assistant on screen.
 
-**Primary resource:** Alexey Grigorev, AI engineering field guide, interview trends (https://github.com/alexeygrigorev/ai-engineering-field-guide). Finish it before adding anything from the reading list.
+**Primary resource:** Alexey Grigorev, AI engineering field guide, interview trends (https://github.com/alexeygrigorev/ai-engineering-field-guide). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 8 guided: 7 on the concept blocks, 1 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## What the rounds look like

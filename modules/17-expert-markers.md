@@ -8,7 +8,7 @@ Prerequisite: Milestone E. By the end you can:
 2. Run a model-release checklist on your own systems in under a day.
 3. Keep up with the field in 20 minutes a day from primary sources, and plan one long study a year.
 
-**Primary resource:** Atharva Raykar, How I keep up with AI progress (https://blog.nilenso.com/blog/2025/06/23/how-i-keep-up-with-ai-progress/). Finish it before adding anything from the reading list.
+**Primary resource:** Atharva Raykar, How I keep up with AI progress (https://blog.nilenso.com/blog/2025/06/23/how-i-keep-up-with-ai-progress/). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 4 guided, which the concept blocks above account for in full; the lab run and the build fit inside them.
 
 ## The markers

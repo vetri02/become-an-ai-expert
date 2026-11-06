@@ -45,9 +45,11 @@ Three planted-bug programs in `targets/`. Each prints flags as you fix it. They 
 
 ## Accounts and keys
 
-- One LLM API key (any major provider) for Modules 07 to 11. Set it as an environment variable; never commit it. Budget $50 to $150 over the course.
+None of these is needed today. Set each one up when you reach the module named.
+
+- One LLM API key (any major provider) for Modules 07 to 11. Set it as an environment variable; never commit it. About $50 to $150 over the course.
 - A free Weights & Biases account for Module 05 and 06 logging.
-- A GPU rental account for Module 05 (nanochat). See the compute appendix for free tiers and prices. Budget $50 to $150.
+- A GPU rental account for Module 05 (nanochat). See the compute appendix for free tiers and prices. About $50 to $200 over the course, most of it in Module 05.
 - A GitHub account with a free GitHub Pages blog. Every module ends with something public.
 
 ## What is NOT in the lab

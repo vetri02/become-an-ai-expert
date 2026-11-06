@@ -36,14 +36,13 @@ Milestones A to E sit at the end of Stages 1 to 5. Each is a submission checklis
 
 Each module page has the same shape: prerequisites and measurable objectives; why it matters, with the evidence; concepts in order with one primary resource; a lab you run; a build with deliverables; a mastery gate; a quiz; primary-source reading; and curated media. The answer key is collapsed at the bottom and should be opened only after you have attempted the quiz and lab. In the course folder the answer keys are `instructor/answers-mNN.md` and the media list is `MEDIA-INDEX.md`; the website folds both into each module page.
 
-Suggested routine for a typical 10 to 16 hour module over one to two weeks, at roughly 10 hours a week (scale it for the 4-hour Module 17 and the 24-hour track modules; `templates/weekly-log.md` is the log):
+The hours line in each module header is the guided time: the concept blocks, the lab or target, and the first pass of the build, in the split the header states. That is what the 200 hours count. Finishing the build, the quiz and the write-up are unguided and sit on top. A typical 10 to 16 hour module therefore runs one to two weeks at roughly 10 hours a week, shaped like this (`templates/weekly-log.md` is the log):
 
-| Hours per week | Activity |
+| Time | Activity |
 |---|---|
-| 2 | Concepts and readings, notes in your own words |
-| 5 | Build and experiment, no video open |
-| 2 | Lab, target, quiz |
-| 1 | Write up evidence, publish, answer one community question |
+| The header's guided hours | Concept blocks with notes in your own words, the lab, the target, the first pass of the build |
+| About 5 hours a week while a build is open | Finish the build and experiment, no video open |
+| About 1 hour a week | Quiz, write up evidence, publish, answer one community question |
 
 Budget one bad week in four. If you miss a week, resume; do not try to catch up.
 
@@ -59,7 +58,7 @@ There are no certificates. The evidence is the certificate.
 
 ## Environment and spending
 
-Everything runs on a laptop except the model-training runs. Budget $100 to $300 of GPU time and $50 to $150 of API calls over the course. The compute appendix lists free tiers and current prices. The thirteen labs need Python 3 and NumPy only.
+Everything runs on a laptop except the model-training runs. Plan on about $50 to $200 of GPU time and $50 to $150 of API calls over the whole course; the labs and targets cost nothing. The compute appendix lists free tiers and current prices. The thirteen labs need Python 3 and NumPy only.
 
 ## Evidence and limitations
 

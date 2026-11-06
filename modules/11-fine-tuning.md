@@ -8,7 +8,7 @@ Prerequisite: Modules 06 and 08. By the end you can:
 2. Run a LoRA fine-tune of a small open model for a format or behaviour target, evaluated against a prompt-only baseline.
 3. Explain why fine-tuning does not reliably add facts.
 
-**Primary resource:** Raschka, Build a Large Language Model (From Scratch), chapters 6 and 7 (https://sebastianraschka.com/llms-from-scratch). Finish it before adding anything from the reading list.
+**Primary resource:** Raschka, Build a Large Language Model (From Scratch), chapters 6 and 7 (https://sebastianraschka.com/llms-from-scratch). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 8 guided: 7 on the concept blocks, 1 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why this is the shortest Stage 3 module

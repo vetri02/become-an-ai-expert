@@ -21,7 +21,7 @@ The principles below are easiest to hold if you have watched someone build the t
 
 **1. A language model is a function from a token sequence to a probability distribution over the next token. Everything else is sampling from it repeatedly.**
 Derivation: the training objective is next-token cross-entropy. Chat, reasoning traces, tool calls and agent loops are all produced by appending the sampled token and calling the function again. There is no other mechanism inside the model.
-Novice A4; Module 03. Lab 03 generates tokens this way. Source: Karpathy, "Let's build GPT" (Zero to Hero).
+Novice A4; Module 03. Lab 07 generates tokens this way. Source: Karpathy, "Let's build GPT" (Zero to Hero).
 
 **2. Text enters the model as tokens, not words, and the tokenizer determines sequence length and therefore cost.**
 Derivation: byte-pair encoding merges the most frequent adjacent pair repeatedly; more merges means a bigger vocabulary and shorter sequences. Compute and price scale with token count, so the tokenizer sets the bill.

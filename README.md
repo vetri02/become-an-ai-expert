@@ -30,17 +30,19 @@ Both tracks start from the same twenty first principles, read before the first m
 
 ## How to start
 
-1. Read **How the course works**.
+1. Read **How the course works**, then **First principles**, the twenty facts every module builds on.
 2. Take the **Entry diagnostic**. It tells you whether to start at Module 01, do the Foundation bridge first, or take the Novice track from A1.
 3. Set up the lab: get the course code from [GitHub](https://github.com/vetri02/become-an-ai-expert) (or the [zip](https://github.com/vetri02/become-an-ai-expert)) and run the thirteen labs once.
 4. Start Module 01 (Professional) or A1 (Novice). Mark each step complete at the bottom of its page; progress and your track are saved in this browser.
-5. Optional: get the tutor skill from **Study with an AI assistant** (clone the course or download the zip, open the folder in Claude Code or Codex) and use the three follow-up prompts at the end of every module.
+5. Optional: open the folder from step 3 in Claude Code or Codex and the tutor skill from **Study with an AI assistant** is already there; use the three follow-up prompts at the end of every module.
+
+Terms you do not know yet are in the **Glossary** under Reference; every one of them is taught in the module that needs it.
 
 ## Questions people ask
 
 ### Is the course free?
 
-Yes. The code is MIT, the writing is CC BY 4.0, and there is no sign-up. The labs, targets and reading cost nothing and run on a laptop. A few projects spend money: the retrieval and agent projects use about $5 to $30 of API calls, the nanochat training run is about $15 on a spot instance or $48 on demand, and the optional larger runs cost more. The [compute appendix](appendix/compute-and-costs.md) lists every figure with the date it was checked. The recordings in the media library are public videos by their original authors.
+Yes. The code is MIT, the writing is CC BY 4.0, and there is no sign-up. The labs, targets and reading cost nothing and run on a laptop. A few projects spend money: plan on about $50 to $200 of GPU time (most of it the nanochat training run in Module 05) and $50 to $150 of API calls over the whole course; the optional larger training runs cost more. The [compute appendix](appendix/compute-and-costs.md) lists every figure with the date it was checked. The recordings in the media library are public videos by their original authors.
 
 ### How long does it take?
 

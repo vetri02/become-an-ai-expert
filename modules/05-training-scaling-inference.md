@@ -8,7 +8,7 @@ Prerequisite: Module 04. By the end you can:
 2. Explain scaling laws and compute-optimal allocation, and show a power-law fit on your own data.
 3. Implement a KV cache, prove outputs are identical, and measure the speedup; compute serving memory for any model config.
 
-**Primary resource:** Karpathy, nanochat, read end to end then run (https://github.com/karpathy/nanochat). Finish it before adding anything from the reading list.
+**Primary resource:** Karpathy, nanochat, read end to end then run (https://github.com/karpathy/nanochat). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 13 guided: 9 on the concept blocks, 4 on the lab, Target 05 and the first pass of the build. Unguided practice on top is yours.
 
 ## Why training and inference are one module

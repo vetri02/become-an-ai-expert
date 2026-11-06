@@ -9,7 +9,7 @@ The course is passed by producing evidence, not by finishing videos. Each row na
 | # | Capability | Evidence artifact | Passes when | Module | Principle |
 |---|---|---|---|---|---|
 | C1 | Build, test and deploy a small Python service | Repo with Dockerfile, 10+ pytest tests, live URL | A stranger clones, tests pass, URL responds; you explain any function without opening the file | A1 / Stage 1 | 20 |
-| C2 | Explain and implement gradient descent | Lab 01 run plus your own NumPy notebook (Project 2) | Both converge; you can state what a 10x learning rate does and show it | A2 / Stage 1 | 3 |
+| C2 | Explain and implement gradient descent | Lab 01 run plus your own NumPy notebook (Project 2) | Both converge; you can state what a 15x learning rate does and show it | A2 / Stage 1 | 3 |
 | C3 | Frame, train, evaluate and error-analyse a tabular model | Project 3 notebook | Baseline stated, cross-validated comparison, metric justified, 30 worst cases categorised, one fix measured, leakage note per feature | A3 / Stage 1 | 12, 13 |
 | C4 | Implement a tokenizer | Lab 05 plus your own BPE on a text of your choice | Round trip is lossless; you show sequence length falling as merges rise | A4 / Stage 2 | 2 |
 | C5 | Implement causal attention and a GPT block | Lab 02 plus your re-typed GPT (Project 4) | Causality and scaling checks pass; your model trains and samples text | A4 / Stage 2 | 1, 4 |

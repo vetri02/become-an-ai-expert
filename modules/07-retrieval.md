@@ -8,7 +8,7 @@ Prerequisite: Module 06. By the end you can:
 2. Measure recall@k on a versioned golden set and show the effect of one change.
 3. Explain why the context is a finite attention budget and what that implies for how much you retrieve.
 
-**Primary resource:** Chip Huyen, AI Engineering, the retrieval chapter (https://www.oreilly.com/library/view/ai-engineering/9781098166298). Finish it before adding anything from the reading list.
+**Primary resource:** Chip Huyen, AI Engineering, the retrieval chapter (https://www.oreilly.com/library/view/ai-engineering/9781098166298). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 13 guided: 9 on the concept blocks, 4 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why retrieval and not fine-tuning

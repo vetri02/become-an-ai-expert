@@ -1,6 +1,6 @@
 # Five performance milestones
 
-Each milestone is scored out of twenty under the peer-review protocol: five criteria, 0 to 4 each. Score 0 for missing evidence, 1 to 2 for an incomplete artifact, 3 for a sound artifact with limited measurement, and 4 for reproducible evidence with the measurement, its noise and its limitations stated. 14 of 20 passes. A high score never overrides a failed mastery gate.
+Each milestone is scored out of twenty under the peer-review protocol: five criteria, 0 to 4 each. The bullets under each milestone below are the five items scored; the protocol's rubric (evidence, evaluation, reproducibility, failure analysis, explanation) supplies the 0, 2 and 4 descriptors used to score each one. Score 0 for missing evidence, 1 to 2 for an incomplete artifact, 3 for a sound artifact with limited measurement, and 4 for reproducible evidence with the measurement, its noise and its limitations stated. 14 of 20 passes. A high score never overrides a failed mastery gate.
 
 ## Milestone A: foundations, after Module 02
 

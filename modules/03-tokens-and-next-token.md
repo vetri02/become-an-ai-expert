@@ -8,7 +8,7 @@ Prerequisite: Module 02, or A5 on the Novice track. By the end you can:
 2. Implement byte-pair encoding, encode and decode losslessly, and show how vocabulary size trades off against sequence length and cost.
 3. Explain why a model cannot know facts outside its training data and what temperature does to sampling.
 
-**Primary resource:** Karpathy, Neural Networks: Zero to Hero, the makemore and tokenizer lectures (https://karpathy.ai/zero-to-hero.html). Finish it before adding anything from the reading list.
+**Primary resource:** Karpathy, Neural Networks: Zero to Hero, the makemore and tokenizer lectures (https://karpathy.ai/zero-to-hero.html). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 6 guided: 5 on the concept blocks, 1 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why this comes before attention
@@ -19,9 +19,9 @@ If you do not have Principle 1 and Principle 2 cold, every later topic (RAG, age
 
 1. **The objective** (1 hour): next-token cross-entropy. A trigram model is a language model. Sampling, greedy decoding, temperature, top-k and top-p as reshapings of one distribution. Chat is tokens appended in a loop; a tool call is tokens the harness parses. Lab 07.
 2. **Tokens** (2 hours): bytes, characters, words, subwords. Byte-pair encoding: merge the most frequent pair, repeat. Vocabulary size versus sequence length. Why "strawberry" has a letter-count problem and why numbers tokenize badly. Karpathy, "Let's build the GPT tokenizer". Lab 05.
-3. **Embeddings** (1 hour): a token id becomes a vector; similarity as a dot product; the unembedding at the end. This is the first half of Module 04.
+3. **Embeddings** (no hours here): a token id becomes a vector; similarity as a dot product; the unembedding at the end. Module 04 teaches it; read ahead only if curious.
 4. **Cost as tokens** (1 hour): input and output tokens, prices per million, why a verbose system prompt costs money on every call. Count tokens for one of your own documents with a provider's tokenizer.
-5. **Karpathy, Zero to Hero: micrograd and makemore 1 to 3** (2 hours of video, watched in pieces, code retyped from memory). Makemore is a character-level next-token model; it is Principle 1 at the smallest scale.
+5. **Karpathy, Zero to Hero: micrograd and makemore 1 to 3** (1 guided hour on micrograd, watched in pieces and retyped from memory; makemore 1 to 3 is about four hours of unguided viewing before Module 04 block 6). Makemore is a character-level next-token model; it is Principle 1 at the smallest scale.
 
 ## Lab
 

@@ -8,7 +8,7 @@ Prerequisite: Milestone D. Choose one of Modules 14, 15 and 16. By the end of th
 2. Profile before optimising, form a falsifiable hypothesis (bandwidth- or compute-bound), and write a Triton kernel with a fair benchmark.
 3. Reproduce one serving optimisation (prefix caching or speculative decoding) and measure it.
 
-**Primary resource:** GPU MODE lectures 1 to 4 (https://github.com/gpu-mode/lectures). Finish it before adding anything from the reading list.
+**Primary resource:** GPU MODE lectures 1 to 4 (https://github.com/gpu-mode/lectures). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 24 guided, all inside the concept blocks above (the build is one of them); the lab run is counted there too.
 
 ## Who this track is for

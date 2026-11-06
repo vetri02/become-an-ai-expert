@@ -8,7 +8,7 @@ Prerequisite: Module 01. By the end you can:
 2. Frame a prediction problem, train a baseline and two models with cross-validation, choose a metric for a stated reason, and do error analysis on the worst cases.
 3. Detect data leakage in grouped and time-ordered data.
 
-**Primary resource:** Andrew Ng's Machine Learning Specialization, courses 1 and 2 (https://www.coursera.org/specializations/machine-learning-introduction). Finish it before adding anything from the reading list.
+**Primary resource:** Andrew Ng's Machine Learning Specialization, courses 1 and 2 (https://www.coursera.org/specializations/machine-learning-introduction). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 10 guided: 9 on the concept blocks, 1 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why only 10 hours
@@ -20,7 +20,7 @@ A machine learning engineer with ten years' experience said in July 2026 that 98
 1. **Linear algebra as intuition** (1 hour): vectors, matrices as transformations, dot products as similarity. 3Blue1Brown Essence of Linear Algebra, then write each idea in your own words.
 2. **Just gradients** (1 hour): derivative, chain rule, gradient, why we step against it, what the learning rate does. 3Blue1Brown Essence of Calculus episodes 1 to 4 and the neural network series. Lab 01.
 3. **Probability and applied statistics** (2 hours): distributions, expectation, conditional probability, Bayes, mean and variance, sampling; then bias/variance, overfitting, what a p-value means, precision, recall, F1, ROC-AUC, calibration. Khan Academy units and StatQuest.
-4. **Classical ML the way scikit-learn does it** (3 hours): Andrew Ng's Machine Learning Specialization courses 1 and 2 at 1.5x with labs; scikit-learn pipelines, ColumnTransformer, cross_validate, the "Common pitfalls" page.
+4. **Classical ML the way scikit-learn does it** (3 hours): Andrew Ng's Machine Learning Specialization, course 1 weeks 1 and 2 at 1.5x with their labs inside these three hours, the rest of courses 1 and 2 as unguided viewing over the next weeks; scikit-learn pipelines, ColumnTransformer, cross_validate, the "Common pitfalls" page.
 5. **Evaluation discipline** (1 hour): splits, stratification, k-fold, leakage in time series and grouped data, class imbalance, choosing the metric that matches the business decision.
 6. **Error analysis** (1 hour): take the 30 worst predictions, read them one by one, categorise why they failed. This habit is what senior people say separates engineers from course-completers, and it carries straight into Module 08.
 

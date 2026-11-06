@@ -8,7 +8,7 @@ Prerequisite: the entry diagnostic passed, or the Foundation bridge exit gate. B
 2. Read any traceback to its cause and any unfamiliar function to its purpose without an assistant.
 3. Review code an assistant wrote for you and name the bug it introduced.
 
-**Primary resource:** the official Python tutorial (https://docs.python.org/3/tutorial/). Finish it before adding anything from the reading list.
+**Primary resource:** the official Python tutorial (https://docs.python.org/3/tutorial/). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 10 guided: 8 on the concept blocks, 2 on the lab and the first pass of the build. Unguided practice on top is yours.
 
 ## Why this is Module 01
@@ -17,7 +17,7 @@ An AI system is a distributed system with a probabilistic component (Principle 2
 
 ## Concepts, in order
 
-1. **Python as a professional writes it** (2 hours): Typing, dataclasses, exceptions, modules and packaging, virtual environments, logging. pytest with fixtures and parametrised tests. Debugging with breakpoints. Profiling with cProfile and reading the output. Primary resource: the official Python tutorial plus the pytest docs; 20 Exercism problems with mentor feedback.
+1. **Python as a professional writes it** (2 hours): Typing, dataclasses, exceptions, modules and packaging, virtual environments, logging. pytest with fixtures and parametrised tests. Debugging with breakpoints. Profiling with cProfile and reading the output. Primary resource: the official Python tutorial (sections 1 to 9 fit these two hours) plus the pytest "Get started" page; Exercism problems with mentor feedback are unguided practice across the module.
 2. **Memory and data structures at the level interviews probe** (1 hour): Lists vs dicts vs sets and why lookups differ; what the stack and heap are; what a process and a thread are; the GIL in one sentence; why a list of a million floats is slow and a NumPy array is not.
 3. **Networking and APIs** (1 hour): HTTP methods and status codes, JSON, REST, timeouts, retries with backoff, idempotency. These are the failure modes of every LLM call you will ever make.
 4. **Git as a daily tool** (1 hour): Branches, pull requests, rebase vs merge, bisect once, a merge conflict resolved on purpose.
@@ -30,7 +30,7 @@ No NumPy lab; the lab for this module is the service itself. Run `labs/run_all.s
 
 ## Build
 
-**Project 1: a deployed API with tests.** A FastAPI service in a domain you care about, backed by SQLite:
+**Project 1: a deployed API with tests** (the first rung of the project ladder in the appendix). A FastAPI service in a domain you care about, backed by SQLite:
 
 - Five or more endpoints, ten or more pytest tests, one test that exercises a failure path
 - A Dockerfile and a README with the three commands
@@ -38,11 +38,11 @@ No NumPy lab; the lab for this module is the service itself. Run `labs/run_all.s
 - One profiling session: a slow endpoint found, fixed, and the before/after timing in the README
 - One commit where an assistant wrote the first draft and your review comment names the bug you found in it
 
-**Deliverables:** the repo URL, the live URL, and a 300-word post on your blog titled "What the assistant got wrong".
+**Deliverables:** the repo URL, the live URL, and a 300-word post on your blog titled "What the assistant got wrong". No blog yet? A GitHub Pages repository is enough, and it serves every later module.
 
 ## Mastery gate
 
-Mark complete only when a stranger (your peer reviewer) has cloned the repo, run the tests green, and hit the live URL. You have also explained, on a recorded call or in writing, every function without opening the file.
+Mark complete only when a stranger (your peer reviewer) has cloned the repo, run the tests green, and hit the live URL. With no partner yet, do the solo check instead: clone into a fresh directory, run the three commands, hit the URL, and keep going; the peer check happens at Milestone A. You have also explained, on a recorded call or in writing, every function without opening the file.
 
 ## Quiz
 

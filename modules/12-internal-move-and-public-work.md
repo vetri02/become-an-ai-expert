@@ -8,7 +8,7 @@ Prerequisite: Milestone C. By the end you can:
 2. Publish a public record (three posts, one runnable repo, one talk) that a stranger could refer you on.
 3. Write a README that a reviewer of 2026 portfolios would call finished.
 
-**Primary resource:** Janvi Kalra on The Pragmatic Engineer, From Software Engineer to AI Engineer (https://newsletter.pragmaticengineer.com/p/from-software-engineer-to-ai-engineer). Finish it before adding anything from the reading list.
+**Primary resource:** Janvi Kalra on The Pragmatic Engineer, From Software Engineer to AI Engineer (https://newsletter.pragmaticengineer.com/p/from-software-engineer-to-ai-engineer). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 10 guided, which the concept blocks above account for in full; the lab run and the build fit inside them.
 
 ## Why this is the highest-probability route

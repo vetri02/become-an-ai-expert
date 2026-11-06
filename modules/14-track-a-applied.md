@@ -8,7 +8,7 @@ Prerequisite: Milestone D. Choose one of Modules 14, 15 and 16; the other two ar
 2. Break the lethal trifecta in code and prove it with a red-team suite that runs on every model version.
 3. Deliver in one vertical with its real constraints and get one upstream contribution merged.
 
-**Primary resource:** Anthropic, Demystifying evals for AI agents (https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents). Finish it before adding anything from the reading list.
+**Primary resource:** Anthropic, Demystifying evals for AI agents (https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 24 guided, all inside the concept blocks above (the build is one of them); the lab run is counted there too.
 
 ## Who this track is for

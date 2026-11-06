@@ -8,7 +8,7 @@ Prerequisite: Module 09. By the end you can:
 2. Defend an agent against prompt injection by removing one leg of the lethal trifecta in code, and prove it with a red-team suite in CI.
 3. Pin model versions and re-run capability and safety suites on every upgrade.
 
-**Primary resource:** Simon Willison, The lethal trifecta (https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), with labs 10, 11 and 13. Finish it before adding anything from the reading list.
+**Primary resource:** Simon Willison, The lethal trifecta (https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), with labs 10, 11 and 13. The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 9 guided: 8 on the concept blocks, 1 on the lab, Target 10 and the first pass of the build. Unguided practice on top is yours.
 
 ## Why these three are one module

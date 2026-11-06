@@ -8,7 +8,7 @@ Prerequisite: Milestone D. Choose one of Modules 14, 15 and 16. By the end of th
 2. Implement GRPO-style post-training from scratch with a results table across settings.
 3. Produce one research-grade artifact that an external reviewer has read, and apply to a fellowship.
 
-**Primary resource:** ARENA curriculum, chapters 1 to 3 (https://learn.arena.education/). Finish it before adding anything from the reading list.
+**Primary resource:** ARENA curriculum, chapters 1 to 3 (https://learn.arena.education/). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 24 guided, all inside the concept blocks above (the build is one of them); the lab run is counted there too.
 
 ## Who this track is for

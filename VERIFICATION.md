@@ -29,8 +29,8 @@ Prepared 2026-11-06 by `checks/verify.py`. Every number below was produced by a 
 
 ## Citations
 
-- `checks/check_links.py` last run 2026-11-06: 230 distinct URLs in 418 citations; ok 175, blocked 55.
-- BLOCKED means the host refuses the plain checker. Each such URL has a second-method record in CHECKS.md: Reddit threads are matched to the research captures of 2026-11-04 (title, date, score); the rest carry a dated manual record in checks/manual-verification.json. No disguised client is used. Second-method tally: fetch-tool 1, research-capture 54; 0 unverified.
+- `checks/check_links.py` last run 2026-11-06: 230 distinct URLs in 418 citations; ok 174, blocked 56.
+- BLOCKED means the host refuses the plain checker. Each such URL has a second-method record in CHECKS.md: Reddit threads are matched to the research captures of 2026-11-04 (title, date, score); the rest carry a dated manual record in checks/manual-verification.json. No disguised client is used. Second-method tally: fetch-tool 1, research-capture 54, unverified 1; 1 unverified.
 
 ## Content counts
 

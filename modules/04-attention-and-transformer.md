@@ -8,7 +8,7 @@ Prerequisite: Module 03. By the end you can:
 2. Draw the full GPT forward pass on a whiteboard: embeddings, positional information, attention, MLP, residuals, layer norm, unembedding.
 3. Train a small GPT on text and sample from it.
 
-**Primary resource:** Raschka, Build a Large Language Model (From Scratch), chapters 3 to 5 (https://sebastianraschka.com/llms-from-scratch). Finish it before adding anything from the reading list.
+**Primary resource:** Raschka, Build a Large Language Model (From Scratch), chapters 3 to 5 (https://sebastianraschka.com/llms-from-scratch). The concept block that names it says how much of it fits the guided hours; do that part before anything from the reading list, and treat the rest of it as unguided practice.
 **Hours:** 14 guided, which the concept blocks above account for in full; the lab run and the build fit inside them.
 
 ## Why this is the hinge of the course
@@ -20,7 +20,7 @@ Nathan Lambert (Ai2): "The Transformer architecture is as fundamental today as d
 1. **Attention as a weighted average** (2 hours): queries, keys, values; softmax rows sum to one; the causal mask; why divide by the square root of the head size. Lab 02. Principle 4.
 2. **Multi-head attention and the block** (2 hours): heads as parallel subspaces; the MLP; residual connections and why depth trains; layer norm; the whole block. Raschka chapter 3 and 4, or Karpathy "Let's build GPT".
 3. **Positions** (1 hour): learned positions, then rotary embeddings in one page. Why a Transformer without position information is a bag of tokens.
-4. **Build GPT** (5 hours): Karpathy "Let's build GPT" retyped from memory, then Raschka chapters 4 and 5. Train on a small corpus on a laptop or free Colab. Load GPT-2 weights and generate.
+4. **Build GPT** (5 hours): Karpathy "Let's build GPT" retyped from memory; Raschka chapters 4 and 5 are the unguided reading beside it. Train on a small corpus on a laptop or free Colab. Load GPT-2 weights and generate.
 5. **The breakthrough papers** (2 hours): "Attention Is All You Need" and GPT-2, read twice each. Skim the derivatives; Lambert says some areas "might only have three papers you need to read".
 6. **Zero to Hero makemore 4 and 5** (2 hours): backprop by hand through a network, then a WaveNet-style deepening. This is where backprop stops being magic.
 
