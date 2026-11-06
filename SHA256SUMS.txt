@@ -14,10 +14,10 @@ a7ab0414dd8dc4fdd96d524438678fe5f7b4fd4d5c2f6e2aa39b77e9515a7c6d  ./appendix/res
 c70bfee77b98ff48eca42e44ec2e84184907bc07ac66fb4346c3a77f7d9ecb46  ./assessments/milestones.md
 be23f8c330e3ae93077d3e2b98dbc519ccf46a63decbc30968ee18c5cda127e7  ./assessments/peer-review.md
 e30e93ed705f61d3de5ec0bd16bb75b3cc5ef78cf612b65bfc1bffcad9ffb6d1  ./ASSISTANT.md
-91ca685cd1e21b9b3bbc6bb3545f1178f613e0412cc7c2d83c7377b4ea6e29df  ./Become-an-AI-Expert-Handbook-v2.1.pdf
+7629e3b6093bbf2a41ec441b6009d9c26502c0e6692d957cbfe96639d35848a4  ./Become-an-AI-Expert-Handbook-v2.1.pdf
 064d4584feb04c3932db17d4471e16033eb89bb9022df33ad43dc0dd106639e7  ./CAPABILITIES.md
 7cc3a5e452609b52b19b8bfed72c687e6eb3a9ef97443ae6fc40b08a92b4555f  ./CAPSTONE.md
-209e43bc0fd1af81d6905002fb23babb056be581f67ab8f61da4ab555d736736  ./CHECKS.md
+5e5ecf1aa962aef39fcb57f5ae80e9ddec60e69e8209c6a4adb6b7303bd344f3  ./CHECKS.md
 71b6c6777afa22694ab0590a97c59f2e6c7f21e13310f94a751b83ca90f92852  ./checks/check_links.py
 be3b5168dad173e89a5cc29b23eeb71e2ff6855518b26c28b47c819cb86557b1  ./checks/check_primary.py
 75d10ef98f5c1bbe033bd28cd7e518ac84b9d8156b679143315eff2924d8a222  ./checks/manual-verification.json
@@ -47,13 +47,13 @@ f45752e718ebef73b816a35aac180452346cf187828cb3749e1134a97ca2a2e9  ./deploy/cloud
 b8503077c1b7fdc5a44a022dfa157c6294953622ba214ec5fd9000f864219ea3  ./deploy/cloudflare/.wrangler/state/v3/r2/miniflare-R2BucketObject/metadata.sqlite-wal
 28dee4642d784a1ab07bf564f18e6ec0d59302f92e5c83ed4e7dddef7b530ec1  ./deploy/cloudflare/.wrangler/tmp/bundle-Bv05HC/middleware-insertion-facade.js
 ad0282cce4938fa9dbe0218969be62b8d2833ca22bf3ec18a93559bfa4c33386  ./deploy/cloudflare/.wrangler/tmp/bundle-Bv05HC/middleware-loader.entry.ts
-801a790413b576e161216b6161f35f9afec24cdb6310b1739c9f52ec440bd8c4  ./deploy/cloudflare/build.py
+8c1d25234ee754f2cedeea73596be2b94d1f44cb3cffc68597bea888f63d3665  ./deploy/cloudflare/build.py
 9a8d96fb24dbf42dac59dca62bdbe6f1934396708ab1eab056963ce45fe6b00b  ./deploy/cloudflare/favicon.svg
 b8cc2bcb3f2800c7ef503e65bed048290732c9c0ad41e1c576b2ebd1241ac56a  ./deploy/cloudflare/og.png
 c51381920f11c703efc19aae118cc1e0bcf9d1d37c7c1242af5057e25e253ca9  ./deploy/cloudflare/package-lock.json
 d01c29dfbefa6df8a89583011abab53f5e693d5b1710d2d751c4da277cd1a91a  ./deploy/cloudflare/package.json
 97f0675daeaedc7499e22e3c22ac81eb463b4a26c2db7410fe9cf2edbd3f89c9  ./deploy/cloudflare/prerender.mjs
-950fbd77142a079e032484e7f1d5a18fcc5d5b4d3074372cfa4b606a5ab3e5ad  ./deploy/cloudflare/README.md
+f2ffcb1057789436309d90a21f765486e0b3c6caf78ede28d4e4150b3a342db1  ./deploy/cloudflare/README.md
 3cb88166a0a021c120f3fa2b5591ab85d98667e2c437c6a32ed2beb2193b50ea  ./deploy/cloudflare/wrangler.jsonc
 0d7e0e420191060c2827c88e97cde8ea9d839edeacec8cd3fd61670576fab823  ./FIRST-PRINCIPLES.md
 c7ef789ac9ba9e60073150ebc5772ed2473a842d4c20d81e2100c9dbf24dbf51  ./FOUNDATION-BRIDGE.md
@@ -141,9 +141,9 @@ b8cc2bcb3f2800c7ef503e65bed048290732c9c0ad41e1c576b2ebd1241ac56a  ./site/brand/o
 4d83f9fda4d426f0e71a4ec534a013b7a65176aa8ef0d9695208c4783bd0980b  ./site/build_media.py
 b59985438c48e5bc1af4b15c7716be902ec35b5c17fc54ddc36630f4a3f8d460  ./site/build_pdf.py
 e280a8fbf099b86d536aa67cedd68bec16cd177f5890d5dd8fd424348cd7648a  ./site/build.py
-9d2fd81d89c3f7fc6b054d3510121a77abcafe5e7b59cc84f846c7c8a22de9e1  ./site/course-data.json
-93119d041bdc596401910e742d7381c7a70762d08dfe6a7cd8886281615d3fd9  ./site/handbook.html
-3ca0320a64123fb8d09c9324fa1e2274cc4345c3838d10513e252967e3d18c9a  ./site/index.html
+d2630380c1ea3dbe2e0c6c0e0a54af7d955406fa32b7a393b1fbb48f635a401d  ./site/course-data.json
+7cd0d60593947e105ac5ee84b07abc17a3f7429c69bdce51ed33ad7072da95e7  ./site/handbook.html
+7f415f738b77cac5e1e5c79fe49f39841a69f753cb444c91f76d1be371b98767  ./site/index.html
 81cbe58230ecf7f34cc088240df5d83beef8004080d52d9468203bcd3fcc421c  ./site/template.html
 d86cee5ddbd233c53f6bed71a77206a5b307d355b465e9a7bc02b99ad885995b  ./SOURCES.md
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./targets/__init__.py
@@ -197,4 +197,4 @@ e18bb79475bca1568543e41bbc82a6c35b4ff2d2be6a997fe60142e1f0209ea3  ./templates/pe
 7a04a2df8b78f762a276ca4c83d2af3f91cf38d7b7cf0df5aff5da2b7ef63561  ./templates/pilot-pitch.md
 9c945e9511d1e2f25e7d9091f7e7620c8a7f72f8dfeac6ee95b1d3e0e33c1b6c  ./templates/project-readme.md
 3ffaf5a108858579f47ae45111d961b68881635a77b69b3784b110f7eaf58932  ./templates/weekly-log.md
-179491586d298205cb8a84fcd33739cf6c2b2539760d8c63ef5c220b33296444  ./VERIFICATION.md
+022b3b05361dca34fb3d507c4b5cb32a6c8f0fb16fa3151b01ecf709b9d27e01  ./VERIFICATION.md
