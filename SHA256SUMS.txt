@@ -14,10 +14,10 @@ a7ab0414dd8dc4fdd96d524438678fe5f7b4fd4d5c2f6e2aa39b77e9515a7c6d  ./appendix/res
 c34f14fdd8d08fd09ec7e173066829007d04fd4caf950162ec8b68eca9477f5f  ./assessments/milestones.md
 be23f8c330e3ae93077d3e2b98dbc519ccf46a63decbc30968ee18c5cda127e7  ./assessments/peer-review.md
 e30e93ed705f61d3de5ec0bd16bb75b3cc5ef78cf612b65bfc1bffcad9ffb6d1  ./ASSISTANT.md
-23e6a00ae591545a024894db1a31b586aed8e73a3179c8665c2e67fd2b67b7d2  ./Become-an-AI-Expert-Handbook-v2.1.pdf
+04ee06bb18f277873c596e684a63d15954da45d4ef0562a42154d2963da4080a  ./Become-an-AI-Expert-Handbook-v2.1.pdf
 4d11be3c8d0dabf4c94652054ac63d0acc5edacf2e36a19c24b919e54a3c6304  ./CAPABILITIES.md
 7cc3a5e452609b52b19b8bfed72c687e6eb3a9ef97443ae6fc40b08a92b4555f  ./CAPSTONE.md
-5ef3d469dc4ad2166366a70fe0bfa67785746fa79b151344b7d5f25394ffb316  ./CHECKS.md
+ea68502b5286e05eb614fb57427f142a013f7c679899e216754531cf5bed63ae  ./CHECKS.md
 71b6c6777afa22694ab0590a97c59f2e6c7f21e13310f94a751b83ca90f92852  ./checks/check_links.py
 be3b5168dad173e89a5cc29b23eeb71e2ff6855518b26c28b47c819cb86557b1  ./checks/check_primary.py
 75d10ef98f5c1bbe033bd28cd7e518ac84b9d8156b679143315eff2924d8a222  ./checks/manual-verification.json
@@ -141,9 +141,9 @@ b8cc2bcb3f2800c7ef503e65bed048290732c9c0ad41e1c576b2ebd1241ac56a  ./site/brand/o
 4d83f9fda4d426f0e71a4ec534a013b7a65176aa8ef0d9695208c4783bd0980b  ./site/build_media.py
 b59985438c48e5bc1af4b15c7716be902ec35b5c17fc54ddc36630f4a3f8d460  ./site/build_pdf.py
 094e073a09bb4b531a1188884315e6e822c4fbff13d7cac9db0b7a0fbc36df1f  ./site/build.py
-f57260e59606abf602daf465e4a7b71caf25957e8af1bb448b62b177babd563f  ./site/course-data.json
-c2cbcd2e7f1d7062226c98a60c9b7d3935c0fcdd16dfe2da352acdc79f13a384  ./site/handbook.html
-a507c0a7a9f7c62eb7713adeb3e98452ed01c626912436f4bd09fce6f31c821f  ./site/index.html
+a61c7d59c943de13671086c419a647fedcff30f602d519e700fbfab83557f6ce  ./site/course-data.json
+0e0094d12b03deae8d272231eacc8f859a03ffdc5479be9891b1ac4260f32e41  ./site/handbook.html
+ca8b4e7fcc7d45a0f5227afc6f307e2edf79006968463d38a068209f7bb7fe6a  ./site/index.html
 2fe008c0d54830794bc1617f5f70e560adc8ab735a04ce49c9c0e1c38e103d3e  ./site/template.html
 d86cee5ddbd233c53f6bed71a77206a5b307d355b465e9a7bc02b99ad885995b  ./SOURCES.md
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./targets/__init__.py
@@ -197,4 +197,4 @@ e18bb79475bca1568543e41bbc82a6c35b4ff2d2be6a997fe60142e1f0209ea3  ./templates/pe
 7a04a2df8b78f762a276ca4c83d2af3f91cf38d7b7cf0df5aff5da2b7ef63561  ./templates/pilot-pitch.md
 9c945e9511d1e2f25e7d9091f7e7620c8a7f72f8dfeac6ee95b1d3e0e33c1b6c  ./templates/project-readme.md
 3ffaf5a108858579f47ae45111d961b68881635a77b69b3784b110f7eaf58932  ./templates/weekly-log.md
-c3790ff198c21552fd0d95484421fc11006691f3eee1d80988cf850e66cfe865  ./VERIFICATION.md
+39346545fc93b183ce65d5cb0adfd65397315cd7ceb8918df11dee8bf854b4a0  ./VERIFICATION.md

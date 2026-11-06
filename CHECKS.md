@@ -4,19 +4,18 @@ Run on 2026-11-06 against 230 distinct URLs in 418 citations.
 
 | Status | Count |
 |---|---|
-| OK | 174 |
-| BLOCKED | 56 |
+| OK | 175 |
+| BLOCKED | 55 |
 
 OK: reachable by this script. BLOCKED: the host refuses scripted clients (Reddit, X, Medium and similar); these were opened by hand during the research on 2026-11-04 and 2026-11-05. DEAD: 404 or 410, needs fixing. ERROR: timeout or TLS problem; retry before judging.
 
 
 ## BLOCKED, verified by a second method
 
-These hosts refuse the plain checker and are not re-fetched with a disguised client. Every Reddit thread is cross-referenced against the research captures of 2026-11-04 (title, date, score as captured); every other URL carries a manual record of when and how it was verified. Methods: fetch-tool 1, research-capture 54, unverified 1.
+These hosts refuse the plain checker and are not re-fetched with a disguised client. Every Reddit thread is cross-referenced against the research captures of 2026-11-04 (title, date, score as captured); every other URL carries a manual record of when and how it was verified. Methods: fetch-tool 1, research-capture 54.
 
 | URL | Method | Evidence | Cited in |
 |---|---|---|---|
-| https://docs.vllm.ai/en/stable/contributing/ | unverified | no capture and no manual record | ADVANCED-TRACK.md, appendix/resources.md, modules/12-internal-move-and-public-work.md, modules/15-track-b-infra.md |
 | https://gordicaleksa.medium.com/how-i-got-a-job-at-deepmind-as-a-research-engineer-without-a-machine-learning-degree-1a45f2a781de | research-capture | research-capture on 2026-11-04: Opened in a browser during the vetting research on 2026-11-04 and recorded as the primary source for Aleksa Gordic in research/self_taught_ai_experts_reddit_vetted.json (vetting.status 'verified'); Medium returns HTTP 403 to both the plain checker and the fetch tool on 2026-11-05, so the page was not re-read today. | ADVANCED-TRACK.md, appendix/stories.md, modules/12-internal-move-and-public-work.md, modules/16-track-c-research.md, path-a-foundations/A6-get-in-the-door.md |
 | https://news.ycombinator.com/item?id=49768826 | fetch-tool | fetch-tool on 2026-11-05: Read with the sanctioned fetch tool: title 'Ask HN: How do you interview devs in a post-AI world?', posted about 45 days before 2026-11-05; discussion of AI-allowed take-homes, explain-your-solution rounds and work trials, which is what Module 13 cites. The plain checker gets HTTP 419 (rate limit). | modules/13-interviews-2026.md |
 | https://openai.com/index/chatgpt-study-mode/ | research-capture | research-capture on 2026-11-05: Fetched by the research agent on 2026-11-05 and recorded in research/practical_tips_beginner_2026-11-05.md item 16 (Study mode launched 2025-07-29, free tier included); openai.com returns HTTP 403 to the plain checker and the fetch tool, so the page was not re-read by this script. | appendix/how-to-study.md |
@@ -110,6 +109,7 @@ These hosts refuse the plain checker and are not re-fetched with a disguised cli
 | https://docs.pytest.org/ | modules/01-software-fundamentals.md |
 | https://docs.python.org/3/tutorial/ | modules/01-software-fundamentals.md |
 | https://docs.vllm.ai/ | ADVANCED-TRACK.md, appendix/resources.md, modules/05-training-scaling-inference.md, modules/15-track-b-infra.md |
+| https://docs.vllm.ai/en/stable/contributing/ | ADVANCED-TRACK.md, appendix/resources.md, modules/12-internal-move-and-public-work.md, modules/15-track-b-infra.md |
 | https://eleuther.ai/community/ | ADVANCED-TRACK.md, appendix/communities.md, appendix/resources.md |
 | https://evanjayconway.com/posts/2026/mats-application/ | ADVANCED-TRACK.md, appendix/communities.md, modules/16-track-c-research.md |
 | https://example.com | deploy/cloudflare/README.md |
